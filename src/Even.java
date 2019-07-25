@@ -1,15 +1,11 @@
 public class Even {
     public static void main(String[] args) {
-        int number= 0;
+        int number=100;
         int sum=0;
-        while(number<=100){
+        for(int i=0;i<=number;i=i+2){
 
-            if(number%2==0){
-                System.out.println(number);
-                sum+=number;
-            }
-            number++;
-            ;
+            System.out.println(i);
+            sum+=i;
         }
         System.out.println(sum);
     }
